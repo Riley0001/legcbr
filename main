@@ -79,7 +79,7 @@ mouse.KeyDown:connect(function(key)
 if key == "x" then
 if teamCheck == true then getgenv().teamCheck = false
                game:GetService('StarterGui'):SetCore('SendNotification', {
-       Title = 'teamCheck off',
+       Title = 'Made By rmg#3285',
        Text = "",
        Duration = 1
    })
@@ -87,7 +87,7 @@ if teamCheck == true then getgenv().teamCheck = false
         
            game:GetService('StarterGui'):SetCore('SendNotification', {
        Title = 'teamCheck on',
-       Text = "",
+       Text = "Made By rmg#3285",
        Duration = 1
    })
 
