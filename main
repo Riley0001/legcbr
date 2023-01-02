@@ -7,7 +7,7 @@ local Player = Players.LocalPlayer
 local Mouse = Player:GetMouse()
 
 local Aimbot = false
-local FOV = 85
+local FOV = 10
 
 local function getClosest()
     local closestPlayer
